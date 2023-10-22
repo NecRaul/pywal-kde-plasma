@@ -13,3 +13,7 @@ Changing theme for KDE Applications (and Firefox).
 ```Bash
 .\pywal.sh \path\to\file\
 ```
+
+## Credit
+
+Most of this script is copied and edited from [TesterTech](https://github.com/TesterTech)'s [repository](https://github.com/TesterTech/rice-i3-from-scratch-pywal/).
