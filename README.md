@@ -5,8 +5,8 @@ Changing theme for KDE Applications (and Firefox).
 ## Requirements
 
 - [pywal-kde](https://github.com/the404devs/pywal-kde) - Regular pywal may work too but it didn't work for me.
-- [pywalfox](https://github.com/Frewacom/pywalfox)
-- [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/)
+- [pywalfox](https://github.com/Frewacom/pywalfox) - See the repository for instruction how to to set it up.
+- [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/) - Just click install and give it permissions.
 
 ## How it works
 
