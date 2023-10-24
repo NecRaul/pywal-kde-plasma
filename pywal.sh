@@ -14,7 +14,7 @@ pywal_get() {
 }
 
 copy_konsole_colorscheme() {
-    sed -i -e "s/Opacity=.*/Opacity=0.9/g" $KONSOLE_COLOR_SCHEME
+    sed -i -e "s/Opacity=.*/Opacity=0.95/g" $KONSOLE_COLOR_SCHEME
 	cp -f $KONSOLE_COLOR_SCHEME $KONSOLE_FILE
 }
 
