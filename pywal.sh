@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 WAL_FILE="$HOME/.cache/wal/colors.sh"
 KONSOLE_FILE="$HOME/.local/share/konsole/pywal.colorscheme"
