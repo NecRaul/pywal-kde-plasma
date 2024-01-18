@@ -165,6 +165,16 @@ if [[ -x "$(which wal)" ]]; then
         else
             echo "[!] 'pywalfox' is not installed. https://github.com/Frewacom/pywalfox"
         fi
+        if [[ -x "$(which zathura)" ]]; then
+            zathura_template="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/zathurarc.template"
+            mv "$HOME/.config/zathura/zathurarc" "$HOME/.config/zathura/zathurarc.bak"
+            cp $zathura_template "$HOME/.config/zathura/zathurarc"
+            sed -i 's/{background}/'"$background"'/g' "$HOME/.config/zathura/zathurarc"
+            sed -i 's/{foreground}/'"$foreground"'/g' "$HOME/.config/zathura/zathurarc"
+            sed -i 's/{color3}/'"$color3"'/g' "$HOME/.config/zathura/zathurarc"
+            sed -i 's/{color4}/'"$color4"'/g' "$HOME/.config/zathura/zathurarc"
+
+        fi
     else
         echo -e "[!] Please enter the path to wallpaper. \n"
         echo "Usage : ./pywal.sh path/to/image"
