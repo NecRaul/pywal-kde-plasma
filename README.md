@@ -1,6 +1,6 @@
 # pywal-kde-script
 
-Changing theme for KDE Applications (and Firefox).
+Changing theme for KDE Applications (along with Firefox and Zathura).
 
 ## Requirements
 
