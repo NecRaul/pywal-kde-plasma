@@ -11,7 +11,7 @@ Changing theme for KDE Applications (along with Firefox and Zathura).
 ## How it works
 
 ```Bash
-.\pywal.sh \path\to\file\
+./pywal.sh /path/to/file
 ```
 
 ## Credit
